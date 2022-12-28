@@ -1,0 +1,162 @@
+#chicky {
+    display: flex;
+    z-index: 800;
+    position: relative;
+    width: auto;
+    height: 200px;
+    margin-top: 25px;
+}
+
+#chickyDialogue {
+    display: flex;
+    font-family: "Karla Regular", sans-serif;
+    font-size: 22px;
+    max-width: 18ch;
+    position: absolute;
+    color: white;
+    z-index: 950;
+}
+
+#home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-top: 40px;
+}
+
+#speechBubble {
+    display: flex;
+    position: relative;
+    z-index: 900;
+    font-size: 350px;
+    width: auto;
+    color: rgb(225, 155, 159, 0.65);
+}
+
+#chickySpeech {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+    height: 400px;
+    margin-bottom: 325px;
+    margin-left: 30px;
+}
+
+.fade-in-image {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  @font-face {
+    font-family: Karla Regular; src: url('../components/fonts/Karla-Regular.ttf'); 
+}
+
+@media screen and (max-width:900px) {
+  #chickyDialogue {
+    font-size: 18px;
+  }
+
+  #chickySpeech {
+    margin-top: 30px;
+  }
+  #speechBubble {
+    width: 250px;
+    max-width: 15ch;
+  }
+  #home {
+    margin-top: 0px;
+  }
+  #chicky {
+    margin-top: 0px;
+    height: 180px;
+  }
+
+}
+
+@media screen and (max-width:700px) {
+  #chickyDialogue {
+    font-size: 13px;
+  }
+
+  #chickySpeech {
+    margin-top: 50px;
+  }
+
+  #speechBubble {
+    width: 200px;
+    max-width: 10ch;
+  }
+  #home {
+    margin-top: 0px;
+  }
+  #chicky {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    height: 150px;
+  }
+
+}
+
+@media screen and (max-width:500px) {
+  #chickyDialogue {
+    font-size: 11px;
+  }
+
+  #chickySpeech {
+    margin-top: 30px;
+  }
+
+  #speechBubble {
+    width: 140px;
+    height: auto;
+  }
+
+  #home {
+    margin-top: 0px;
+  }
+
+  #chicky {
+    margin-top: 0px;
+    height: auto;
+    width: 80px;
+  }
+
+}
+
+@media (prefers-reduced-motion) {
+  .fade-in-image {
+    animation: none;
+  }
+}
