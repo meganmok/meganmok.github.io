@@ -1,2 +1,2 @@
-# My Personal Website!
-## Have fun browsing! 🥚
+# My Personal Website 🥚
+## Have fun browsing! 🍳
