@@ -247,28 +247,11 @@
     margin-bottom: 0px;
   }
 
-  #goodbye {
-    font-size: 200px;
-  }
-
-  #goodbyeDialogue {
-    font-size: 13px;
-  }
-
-  #goodbyeSpeech {
-    margin-top: 0px;
-    margin-bottom: 100px;
-    margin-right: 35px;
-    margin-left: 0px;
-  }
-
   #contactMe {
     margin-top: 100px;
     font-size: 14px;
   }
-  #contactBottom {
-    height: 500px;
-  }
+  
 }
 
 
@@ -338,30 +321,4 @@
     margin-top: 1%;
   }
 
-  #smiley {
-    width: auto;
-    height: 100px;
-    margin-top: 130px;
-    margin-bottom: 0px;
-  }
-
-  #goodbye {
-    font-size: 150px;
-    max-width: 10ch;
-  }
-
-  #goodbyeDialogue {
-    font-size: 10px;
-  }
-
-  #goodbyeSpeech {
-    margin-top: 0px;
-    margin-bottom: 100px;
-    margin-right: 30px;
-    margin-left: 0px;
-  }
-
-  #contactBottom {
-    margin-top: 90px;
-  }
 }
