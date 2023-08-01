@@ -1,6 +1,7 @@
 #contact {
     display: flex;
     flex-direction: column;
+    background: linear-gradient(#FFFFFF, #FDEECE);
 }
 
 #contactBottom {
@@ -107,7 +108,7 @@
   #secondText::after {
     left: -26px;
     width: 26px;
-    background-color:  #FCF4E2;
+    background-color:  #FEFAF0;
 		border-bottom-right-radius: 10px;
   }
 
@@ -213,7 +214,7 @@
 
   
   #secondText::after {
-    background-color:  #FBF2DC;
+    background-color:  #FEFAF0;
     left: -25px;
   }
 
