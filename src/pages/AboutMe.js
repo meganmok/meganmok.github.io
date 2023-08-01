@@ -24,7 +24,7 @@ function AboutMe() {
         <div className = "emojiText">
         <span role="img" aria-labelledby="wave" className = "emoji" id = "wave"> 👋 </span>
         <p className= "introText">
-        hi my name is megan! i am currently studying computer science at uc davis. 
+        hi my name is megan! i am currently a uc davis alum seeking job opportunities in web development and ux engineering. 
         </p>
         </div>
         <div className = "emojiText">
@@ -48,7 +48,7 @@ function AboutMe() {
         <div className = "emojiText">
         <span role="img" aria-labelledby="smile" className = "specialEmoji" id = "smile"> 😄 </span>
         <p className= "introText">
-        have fun clicking around! 
+        some of the icons on my site animate, so have fun mousing around! 
         </p>
         </div>
         </div>
