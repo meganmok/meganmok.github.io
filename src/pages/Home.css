@@ -1,25 +1,27 @@
+#chickContainer {
+  display: flex;
+}
+
 #chicky {
-    display: flex;
-    z-index: 800;
-    position: relative;
     width: auto;
     height: 200px;
-    margin-top: 25px;
-}
+    position: relative;
+    margin-top: 230px;
+    margin-right: 10px;
+  }
 
 #chickyDialogue {
     display: flex;
     font-family: "Karla Regular", sans-serif;
-    font-size: 22px;
+    font-size: 19px;
     max-width: 18ch;
     position: absolute;
     color: white;
-    z-index: 950;
+    z-index: 1000;
 }
 
 #home {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 100vw;
@@ -34,6 +36,7 @@
     font-size: 350px;
     width: auto;
     color: rgb(225, 155, 159, 0.65);
+    height: 270px;
 }
 
 #chickySpeech {
@@ -42,9 +45,8 @@
     align-items: center;
     animation-delay: 1s;
     animation-fill-mode: both;
-    height: 400px;
-    margin-bottom: 325px;
-    margin-left: 30px;
+    height: 300px;
+    width: auto;
 }
 
 .fade-in-image {
