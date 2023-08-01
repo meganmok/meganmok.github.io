@@ -2,7 +2,9 @@
     display: flex;
     flex-direction: column;
     background: linear-gradient(#FFFFFF, #FDEECE);
-}
+    width: 100vw;
+    height: 100vh;
+  }
 
 #contactBottom {
   display: flex;
@@ -108,7 +110,7 @@
   #secondText::after {
     left: -26px;
     width: 26px;
-    background-color:  #FEFAF0;
+    background-color:  #FBF1DA;
 		border-bottom-right-radius: 10px;
   }
 
@@ -214,7 +216,7 @@
 
   
   #secondText::after {
-    background-color:  #FEFAF0;
+    background-color:  #FBF1DA;
     left: -25px;
   }
 
