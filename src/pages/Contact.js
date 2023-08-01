@@ -4,9 +4,6 @@ import meg from '../components/images/meg.png';
 import mail from '../components/images/mail.png';
 import linkedin from '../components/images/linkedin.png';
 import github from '../components/images/github.png';
-import smiley_chicky from '../components/images/smiley_talk.gif';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faComment} from '@fortawesome/free-solid-svg-icons';
 import Aos from "aos";
 
 
@@ -35,13 +32,6 @@ function Contact() {
             <p className="text" id = "secondText" data-aos = "fade-up"  data-aos-easing="ease-in-out" data-aos-duration= "1000" data-aos-delay= "1000" data-aos-once="true"> i'm looking forward to hearing from you! </p>
             </div>
             <p id = "contactMe"> contact me </p>
-            <div id = "contactBottom" data-aos = "fade"  data-aos-easing="ease-in-out" data-aos-duration= "1000" data-aos-delay="700" data-aos-once="true">
-            <img src={smiley_chicky} id = "smiley" alt="smiley chicky"/>
-            <div id = "goodbyeSpeech" >
-            <div id = "goodbyeDialogue" > thanks for visiting! </div>
-            <FontAwesomeIcon icon={faComment} id = "goodbye"/>
-            </div>
-            </div>
             </div>
     )
 }

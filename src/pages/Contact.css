@@ -6,54 +6,6 @@
     height: 100vh;
   }
 
-#contactBottom {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  align-items: center;
-  height: 700px;
-  margin-top: 200px;
-}
-
-#smiley {
-  width: auto;
-  height: 225px;
-  display: flex;
-  z-index: 800;
-  position: relative;
-  margin-top: 250px;
-}
-
-#goodbye {
-  display: flex;
-  position: relative;
-  z-index: 900;
-  font-size: 300px;
-  width: auto;
-  color: rgb(184, 226, 240, 0.9);
-  transform: scale(-1, 1);
-}
-
-#goodbyeDialogue {
-  font-family: "Karla Regular", sans-serif;
-  font-size: 22px;
-  max-width: 18ch;
-  position: absolute;
-  color: white;
-  z-index: 950;
-}
-
-#goodbyeSpeech {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 400px;
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-top: 20px;
-  margin-bottom: 90px;
-}
-
 #socials {
     display: flex;
     justify-content: center;
@@ -225,29 +177,7 @@
     margin-top: 70px;
   }
 
-  #smiley {
-    width: auto;
-    height: 180px;
-    margin-top: 130px;
-    margin-bottom: 0px;
-  }
-
-  #goodbye {
-    font-size: 250px;
-  }
-
-  #goodbyeDialogue {
-    font-size: 18px;
-  }
-
-  #goodbyeSpeech {
-    margin-top: 0px;
-    margin-bottom: 130px;
-  }
-
-  #contactBottom {
-    height: 500px;
-  }
+  
 }
 
 
