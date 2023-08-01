@@ -1,8 +1,6 @@
 #contact {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(0deg, #FDEECE 50%, #FFFFFF);
-
 }
 
 #contactBottom {
