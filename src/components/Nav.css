@@ -6,7 +6,7 @@ ul {
 #navBar {
   display: flex;
   flex-direction: row;
-  font-family: Apparel-Bold, sans-serif;
+  font-family: Borel, sans-serif;
   position: fixed;
   justify-content: flex-end;
   width: 98%;
@@ -17,11 +17,11 @@ li {
 }
 
 li .active {
-  font-family: Apparel-Black, sans-serif;
+  font-family: Borel, sans-serif;
 } 
 
 li:hover {
-    font-family: Apparel-Black, sans-serif;
+    font-family: Borel, sans-serif;
     cursor: pointer;
   }
 
@@ -70,6 +70,12 @@ header {
     35% { transform: rotateZ(-4deg); }
     40%, 100% { transform: rotateZ(0); }
   }
+
+
+@font-face { 
+  font-family: Borel; src: url('./fonts/Borel-Regular.ttf'); 
+} 
+
 
 @font-face { 
     font-family: Apparel-Black; src: url('./fonts/apparel-black.otf'); 

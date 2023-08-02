@@ -62,7 +62,7 @@ p {
 }
 
 #title {
-    font-family: Apparel-Bold;
+    font-family: Borel;
     font-size: 22px;
     text-align: right;
     margin-bottom: -6px;
@@ -72,6 +72,10 @@ p {
 @font-face { 
     font-family: Apparel-Bold; src: url('../components/fonts/apparel-bold.otf'); 
 } 
+
+@font-face { 
+    font-family: Borel; src: url('../components//fonts/Borel-Regular.ttf'); 
+  } 
 
 .slideInfo {
     animation-duration: 1s;

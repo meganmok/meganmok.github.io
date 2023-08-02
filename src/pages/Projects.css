@@ -160,6 +160,10 @@
 }
 
 @font-face { 
+    font-family: Borel; src: url('../components//fonts/Borel-Regular.ttf'); 
+  } 
+
+@font-face { 
     font-family: Apparel-Bold; src: url('../components/fonts/apparel-bold.otf'); 
 } 
 
@@ -172,7 +176,7 @@
 } 
 
 #projectTitle {
-    font-family: Apparel-Bold, sans-serif;
+    font-family: Borel, sans-serif;
     font-size: 22px;
 }
 
