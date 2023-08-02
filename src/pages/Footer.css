@@ -1,0 +1,101 @@
+#footer {
+    width: 100vw;
+    height: 100vh;
+    background: #FDEECE;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+  #smiley {
+    width: auto;
+    height: 200px;
+    display: flex;
+    position: relative;
+    margin-top: 320px;
+    margin-left: 10px;
+  }
+  
+  #goodbye {
+    display: flex;
+    position: relative;
+    z-index: 900;
+    font-size: 300px;
+    width: auto;
+    color: rgb(184, 226, 240, 0.9);
+    transform: scale(-1, 1);
+  }
+  
+  #goodbyeDialogue {
+    font-family: "Karla Regular", sans-serif;
+    font-size: 19px;
+    max-width: 18ch;
+    position: absolute;
+    color: white;
+    z-index: 1000;
+  }
+  
+  #goodbyeSpeech {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: auto;
+  }
+
+  @media screen and (max-width:900px) {
+  
+    #smiley {
+        width: auto;
+        height: 180px;
+        margin-top: 130px;
+        margin-bottom: 0px;
+      }
+    
+      #goodbye {
+        font-size: 250px;
+      }
+    
+      #goodbyeDialogue {
+        font-size: 18px;
+      }
+    
+      #goodbyeSpeech {
+        margin-top: 0px;
+        margin-bottom: 130px;
+      }
+    
+      #footer {
+        height: 500px;
+      }
+}
+
+@media screen and (max-width:500px) {
+    #smiley {
+        width: auto;
+        height: 100px;
+        margin-top: 130px;
+        margin-bottom: 0px;
+      }
+    
+      #goodbye {
+        font-size: 150px;
+        max-width: 10ch;
+      }
+    
+      #goodbyeDialogue {
+        font-size: 10px;
+      }
+    
+      #goodbyeSpeech {
+        margin-top: 0px;
+        margin-bottom: 100px;
+        margin-right: 30px;
+        margin-left: 0px;
+      }
+    
+      #footer {
+        margin-top: 90px;
+      }
+    }
