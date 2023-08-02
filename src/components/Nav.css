@@ -23,6 +23,7 @@ li .active {
 li:hover {
     font-family: Borel, sans-serif;
     cursor: pointer;
+    text-decoration: underline;
   }
 
 .wiggle {
