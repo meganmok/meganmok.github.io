@@ -30,13 +30,6 @@ li:hover {
   animation-duration: 2s;
 }
 
-header {
-    display: flex;
-    animation-duration: 1s;
-    animation-name: slideUp;
-    animation-timing-function: ease-in;
-}
-
 .change-eggs {
     position: fixed;
 }
