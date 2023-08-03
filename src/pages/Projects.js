@@ -74,7 +74,6 @@ function Projects() {
       <div id = "projects">
         <div id = "projectHeader">
         <p id = "projectTitle" className = "headerContent"> personal projects</p>
-        <p id = "projectComment" className = "headerContent"> click the icons below to view my projects! </p>        
         </div>
         {isShown && (<div>  
           <FadeIn>
