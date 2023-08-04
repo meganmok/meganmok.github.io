@@ -80,13 +80,20 @@ function Projects() {
 
         <div id = "designs">
         <p className = "groupName"> designs</p>
-        <img src = {linux} id = "linux" alt = "linux" />
+        <img src = {dm} className = "app" id = "dm" alt = "dailymood" />
+        <img src = {travel} className = "app" id = "travel" alt = "travel" />
+        <img src = {cart} className = "app" id = "cart" alt = "cart"/>
+
         <p className = "groupName"> websites</p>
+        <img src = {ec} className = "app" id = "ec" alt = "espressco" />
+        <img src = {shiba} className = "app" id = "shiba" alt = "tiktok pets" />
         <p className = "groupName"> programs</p>
 
         </div>
         <div id = "websites">
-          
+        <img src = {shell} className = "app" id = "shell" alt = "shell"/>
+        <img src = {apple} className = "app" id = "apple" alt = "apple"/>
+        <img src = {canvas} className = "app" id = "canvas" alt = "canvas"/>
           </div>
           <div id = "programs">
           </div>
