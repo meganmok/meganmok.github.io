@@ -79,7 +79,11 @@ function Projects() {
         </div>
 
         <div id = "designs">
-          
+        <p className = "groupName"> designs</p>
+        <img src = {linux} id = "linux" alt = "linux" />
+        <p className = "groupName"> websites</p>
+        <p className = "groupName"> programs</p>
+
         </div>
         <div id = "websites">
           

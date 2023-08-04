@@ -10,6 +10,11 @@
     transform: translateY(-5px);
 }
 
+.groupName {
+    font-family: "Karla Regular", sans-serif;
+    font-size: 16px;
+}
+
 #iconHolder {
     display: flex;
     justify-content: center;
