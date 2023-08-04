@@ -12,6 +12,8 @@ import canvas_info from '../components/images/canvas_algo.png';
 import tiktokpets from '../components/images/tiktokpets.png';
 import igshop from '../components/images/ig_shop.png';
 import dm from '../components/images/dm_app.png';
+import travel from '../components/images/travel_app.png';
+import ec from '../components/images/espressco_app.png';
 
 function Projects() {
   const [isShown, setIsShown] = useState(false);
