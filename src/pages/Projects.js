@@ -6,12 +6,12 @@ import apple from '../components/images/apple_app.png';
 import canvas from '../components/images/canvas_app.png';
 import cart from '../components/images/cart_app.png';
 import shiba from '../components/images/shiba_app.png';
-import linux from '../components/images/linux_terminal.png'
-import mac from '../components/images/mac_terminal.png'
-import canvas_info from '../components/images/canvas_algo.png'
-import tiktokpets from '../components/images/tiktokpets.png'
-import igshop from '../components/images/ig_shop.png'
-
+import linux from '../components/images/linux_terminal.png';
+import mac from '../components/images/mac_terminal.png';
+import canvas_info from '../components/images/canvas_algo.png';
+import tiktokpets from '../components/images/tiktokpets.png';
+import igshop from '../components/images/ig_shop.png';
+import dm from '../components/images/dm_app.png';
 
 function Projects() {
   const [isShown, setIsShown] = useState(false);
@@ -75,6 +75,16 @@ function Projects() {
         <div id = "projectHeader">
         <p id = "projectTitle" className = "headerContent"> personal projects</p>
         </div>
+
+        <div id = "designs">
+          
+        </div>
+        <div id = "websites">
+          
+          </div>
+          <div id = "programs">
+          </div>
+        {/*
         {isShown && (<div>  
           <FadeIn>
           <p id = "shellCommand" className= "typewriter"> cat description.txt </p>
@@ -123,7 +133,7 @@ function Projects() {
         <img src = {shiba} className = "app" id = "shiba" alt = "shiba" onClick = {handleClick4}/>
         <img src = {cart} className = "app" id = "cart" alt = "cart" onClick = {handleClick5}/>
         </div>
-        </div>
+        </div> */}
         </div>
     );
 }
