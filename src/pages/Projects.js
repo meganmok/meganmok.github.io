@@ -80,24 +80,42 @@ function Projects() {
 
         <div id = "designs">
         <p className = "groupName"> designs</p>
+        <div id = "designsRow1"> 
         <img src = {dm} className = "app" id = "dm" alt = "dailymood" />
         <img src = {travel} className = "app" id = "travel" alt = "travel" />
-        <img src = {cart} className = "app" id = "cart" alt = "cart"/>
-
-        <p className = "groupName"> websites</p>
-        <img src = {ec} className = "app" id = "ec" alt = "espressco" />
-        <img src = {shiba} className = "app" id = "shiba" alt = "tiktok pets" />
-        <p className = "groupName"> programs</p>
-
         </div>
-        <div id = "websites">
+        <div id = "designsRow2"> 
+        <img src = {cart} className = "app" id = "cart" alt = "cart"/>
+        </div>
+        </div>
+        {/* end of designs */}
+
+        <div id = "websites"> 
+        <p className = "groupName"> websites</p>
+        <div id = "sitesRow1"> 
+        <img src = {ec} className = "app" id = "ec" alt = "espressco" />
+        <img src = {shiba} className = "app" id = "shiba" alt = "tiktokpets" />
+        </div>
+        </div>
+
+        {/* end of websites */}
+
+        <div id = "programs">
+        <p className = "groupName"> programs</p>
+        <div id = "progsRow1"> 
         <img src = {shell} className = "app" id = "shell" alt = "shell"/>
         <img src = {apple} className = "app" id = "apple" alt = "apple"/>
+        </div>
+        <div id = "progsRow2"> 
         <img src = {canvas} className = "app" id = "canvas" alt = "canvas"/>
+        </div>
           </div>
-          <div id = "programs">
+
+        {/* end of programs */}
+
           </div>
-        {/*
+    );
+    {/*
         {isShown && (<div>  
           <FadeIn>
           <p id = "shellCommand" className= "typewriter"> cat description.txt </p>
@@ -147,8 +165,6 @@ function Projects() {
         <img src = {cart} className = "app" id = "cart" alt = "cart" onClick = {handleClick5}/>
         </div>
         </div> */}
-        </div>
-    );
 }
 
 export default Projects;
