@@ -2,7 +2,6 @@
     width: 60px;
     height: 60px;
     border-radius: 13px;
-    margin: 13px;
 }
 
 .app:hover {
@@ -13,6 +12,21 @@
 .groupName {
     font-family: "Karla Regular", sans-serif;
     font-size: 16px;
+}
+
+#designs {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+#websites {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+#programs {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
 }
 
 #iconHolder {

@@ -96,6 +96,8 @@ function Projects() {
         <img src = {ec} className = "app" id = "ec" alt = "espressco" />
         <img src = {shiba} className = "app" id = "shiba" alt = "tiktokpets" />
         </div>
+        <div id = "sitesRow2"> 
+      </div>
         </div>
 
         {/* end of websites */}
