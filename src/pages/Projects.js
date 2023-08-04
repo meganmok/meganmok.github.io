@@ -16,7 +16,7 @@ import travel from '../components/images/travel_app.png';
 import ec from '../components/images/espressco_app.png';
 
 function Projects() {
-  const [isShown, setIsShown] = useState(false);
+  {/*const [isShown, setIsShown] = useState(false);
   const [isShown2, setIsShown2] = useState(false);
   const [isShown3, setIsShown3] = useState(false);
   const [isShown4, setIsShown4] = useState(false);
@@ -71,7 +71,7 @@ function Projects() {
     setIsShown4(false);
     // 👇️ or simply set it to true
     // setIsShown(true);
-  };
+  };*/}
     return (
       <div id = "projects">
         <div id = "projectHeader">
