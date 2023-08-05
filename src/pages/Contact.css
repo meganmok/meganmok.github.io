@@ -6,14 +6,27 @@
     height: 100vh;
   }
 
+#contactMe {
+    font-family: Borel, sans-serif;
+    font-size: 22px;
+    color: black;
+    margin-top: 100px;
+}
+
+#contactMiddle {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  align-self: center;
+}
+
 #socials {
     display: flex;
     justify-content: center;
-    position: absolute;
     align-self: center;
-    height: 250px;
     width: 500px;
-    margin-top: 200px;
+    position: absolute;
+    margin-top: 110px;
 }
 
 
@@ -27,22 +40,24 @@
     max-width: 300px;
     margin-bottom: 12px;
     line-height: 24px;
-    position: relative;
+    position: absolute;
     padding: 10px 20px;
     border-radius: 25px;
+
   }
 
 
   #firstText {
-    margin-top: 170px;
-    margin-bottom: 0px;
+    margin-top: 0px;
     align-self: flex-start;
+    position: relative;
   }
 
 
   #secondText {
     margin-top: 5px;
     align-self: flex-start;
+    position: relative;
   }
 
   .text::before, ::after {
@@ -70,19 +85,21 @@
   #iMessage {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     align-self: center;
+    position: relative;
+    margin-top: 300px;
   }
 
 
 #meg {
     width: 150px;
-    position: relative;
     align-self: center;
-    margin-top: 90px;
+    position: absolute;
 }
 
 #mail {
-    width: 90px;
+    width: 100px;
     margin-top: 5px;
     
 }
@@ -93,17 +110,11 @@
 }
 
 #github {
-    width: 95px;
-    margin-top: 10px;
+    width: 100px;
+    margin-top: 5px;
 }
 
-#contactMe {
-    font-family: Borel, sans-serif;
-    font-size: 22px;
-    color: black;
-    margin-top: 85px;
 
-}
 
 
 .zoom {
