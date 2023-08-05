@@ -1,3 +1,8 @@
+#projects {
+    display: flex;
+    flex-direction: row;
+}
+
 .app {
     width: 60px;
     height: 60px;
@@ -14,38 +19,16 @@
     font-size: 16px;
 }
 
-#designsContainer {
+.container {
     display: grid;
     grid-template-columns: auto auto;
     gap: 8px;
-}
-
-#sitesContainer {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 8px;
-}
-
-#progsContainer {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 8px;
-}
-
-#iconHolder {
-    display: flex;
-    justify-content: center;
-}
-
-#iconBar {
     background-color: #F5F5F5;
-    border-radius: 30px;
-    padding-right: 5px;
-    padding-left: 5px;
-    margin-top: 15px;
     box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
-
+    border-radius: 25px;
+    padding: 10px;
 }
+
 
 #shellCommand {
     margin-top: 95px;
