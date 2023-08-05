@@ -77,6 +77,7 @@ function Projects() {
         <div id = "projectHeader">
         <p id = "projectTitle" className = "headerContent"> personal projects</p>
         </div>
+        <div id = "projectMiddle">
         <div id = "designs">
         <p className = "groupName"> designs</p>
         <div id = "designsContainer" className = "container"> 
@@ -105,7 +106,7 @@ function Projects() {
         <img src = {canvas} className = "app" id = "canvas" alt = "canvas"/>
         </div>
           </div>
-
+          </div>
         {/* end of programs */}
 
           </div>
