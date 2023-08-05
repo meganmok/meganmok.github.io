@@ -93,6 +93,7 @@ function Projects() {
         <div id = "sitesContainer" className = "container"> 
         <img src = {ec} className = "app" id = "ec" alt = "espressco" />
         <img src = {shiba} className = "app" id = "shiba" alt = "tiktokpets" />
+        <div id = "placeholder"></div>
         </div>
         </div>
 

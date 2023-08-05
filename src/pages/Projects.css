@@ -37,6 +37,10 @@
     padding: 10px;
 }
 
+#placeholder {
+    height: 60px;
+}
+
 
 #shellCommand {
     margin-top: 95px;
