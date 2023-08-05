@@ -17,16 +17,19 @@
 #designsContainer {
     display: grid;
     grid-template-columns: auto auto;
+    gap: 8px;
 }
 
 #sitesContainer {
     display: grid;
     grid-template-columns: auto auto;
+    gap: 8px;
 }
 
 #progsContainer {
     display: grid;
     grid-template-columns: auto auto;
+    gap: 8px;
 }
 
 #iconHolder {
