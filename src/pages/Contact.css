@@ -10,7 +10,7 @@
     font-family: Borel, sans-serif;
     font-size: 22px;
     color: black;
-    margin-top: 100px;
+    margin-top: 90px;
 }
 
 #contactMiddle {
@@ -49,6 +49,7 @@
 
   #firstText {
     margin-top: 0px;
+    margin-bottom: 0px;
     align-self: flex-start;
     position: relative;
   }
@@ -88,7 +89,7 @@
     justify-content: flex-end;
     align-self: center;
     position: relative;
-    margin-top: 300px;
+    margin-top: 340px;
   }
 
 
