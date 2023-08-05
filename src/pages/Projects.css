@@ -14,19 +14,19 @@
     font-size: 16px;
 }
 
-#designs {
+#designsContainer {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: auto auto;
 }
 
-#websites {
+#sitesContainer {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: auto auto;
 }
 
-#programs {
+#progsContainer {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: auto auto;
 }
 
 #iconHolder {
