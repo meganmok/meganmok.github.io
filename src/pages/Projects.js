@@ -78,6 +78,8 @@ function Projects() {
         <p id = "projectTitle" className = "headerContent"> personal projects</p>
         </div>
         <div id = "projectMiddle">
+        </div>
+        <div id = "projectBottom">
         <div id = "designs">
         <p className = "groupName"> designs</p>
         <div id = "designsContainer" className = "container"> 
@@ -93,7 +95,6 @@ function Projects() {
         <div id = "sitesContainer" className = "container"> 
         <img src = {ec} className = "app" id = "ec" alt = "espressco" />
         <img src = {shiba} className = "app" id = "shiba" alt = "tiktokpets" />
-        <div id = "placeholder"></div>
         </div>
         </div>
 

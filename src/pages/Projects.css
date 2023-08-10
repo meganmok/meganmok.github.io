@@ -5,7 +5,7 @@
     height: 100vw;
 }
 
-#projectMiddle {
+#projectBottom {
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -28,13 +28,16 @@
 }
 
 .container {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
     background-color: #F5F5F5;
     box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
     border-radius: 25px;
-    padding: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #placeholder {
