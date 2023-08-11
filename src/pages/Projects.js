@@ -17,8 +17,20 @@ import ec from '../components/images/espressco_app.png';
 
 function Projects() {
   const [isShown, setIsShown] = useState(false);
+  const [isShown2, setIsShown2] = useState(false);
+  const [isShown3, setIsShown3] = useState(false);
+  const [isShown4, setIsShown4] = useState(false);
+  const [isShown5, setIsShown5] = useState(false);
+  const [isShown6, setIsShown6] = useState(false);
+  const [isShown7, setIsShown7] = useState(false);
   const handleClick = event => {
     setIsShown(current => !current);
+    setIsShown2(false);
+    setIsShown3(false);
+    setIsShown4(false);
+    setIsShown5(false);
+    setIsShown6(false);
+    setIsShown7(false);
   };
     return (
       <div id = "projects">
