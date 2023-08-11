@@ -132,7 +132,7 @@ function Projects() {
          {isShown4 && (
         <FadeIn>
           <div> 
-          <p id = "comingSoon"> COMING SOON! </p>
+          <p id = "comingSoon"> coming soon! </p>
           </div>
           </FadeIn> )}
         </div>
