@@ -24,6 +24,8 @@ function Projects() {
   const [isShown6, setIsShown6] = useState(false);
   const [isShown7, setIsShown7] = useState(false);
   const [isShown8, setIsShown8] = useState(false);
+  const [coverShown, setCover] = useState(false);
+
   const handleClick = event => {
     setIsShown(current => !current);
     setIsShown2(false);
@@ -104,6 +106,10 @@ function Projects() {
     setIsShown6(false);
     setIsShown7(false);
   };
+  const igClick = event => {
+    setCover(current => !current);
+    setIsShown3(false);
+  };
     return (
       <div id = "projects">
         <div id = "projectHeader">
@@ -122,10 +128,17 @@ function Projects() {
           <iframe frameborder="0" title="travelapp" width="1000" height="500" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FMZZUuElCT2hAQ0yZ480mmp%2FDI-Travel-App-Project-WQ23-(Copy)%3Ftype%3Ddesign%26node-id%3D47-2407%26t%3DKeeRiRuMfDUrNuTY-1%26scaling%3Dscale-down%26page-id%3D1%253A67%26starting-point-node-id%3D47%253A2407%26hotspot-hints%3D0%26mode%3Ddesign%26hide-ui%3D1" allowFullScreen> </iframe>   
           </div>
           </FadeIn> )}
+          {coverShown && (
+            <FadeIn>
+            <div> 
+          <iframe frameborder="0" title="shopapp" width="1000" height="500" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F7IxMljoy3vMJ3IHSPDq4Da%2FHi-Fi-Prototypes%3Ftype%3Ddesign%26node-id%3D27-2918%26t%3DcLuAbGg9P0zeUSNZ-1%26scaling%3Dscale-down%26page-id%3D27%253A2917%26starting-point-node-id%3D27%253A2918%26hotspot-hints%3D0%26mode%3Ddesign%26hide-ui%3D1" allowFullScreen> </iframe>   
+          </div>
+            </FadeIn>
+          )}
           {isShown3 && (
         <FadeIn>
           <div> 
-          <iframe frameborder="0" title="shopapp" width="1000" height="500" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F7IxMljoy3vMJ3IHSPDq4Da%2FHi-Fi-Prototypes%3Ftype%3Ddesign%26node-id%3D27-2918%26t%3DcLuAbGg9P0zeUSNZ-1%26scaling%3Dscale-down%26page-id%3D27%253A2917%26starting-point-node-id%3D27%253A2918%26hotspot-hints%3D0%26mode%3Ddesign%26hide-ui%3D1" allowFullScreen> </iframe>   
+          <img src = {igshop} id = "igshop" alt = "ig shop" onClick = {igClick}/> 
           </div>
           </FadeIn> )}
          {/* end of designs */}
