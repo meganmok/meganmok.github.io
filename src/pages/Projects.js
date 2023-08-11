@@ -24,7 +24,7 @@ function Projects() {
   const [isShown6, setIsShown6] = useState(false);
   const [isShown7, setIsShown7] = useState(false);
   const [isShown8, setIsShown8] = useState(false);
-  const [coverShown, setCover] = useState(false);
+  const [coverShown3, setCover3] = useState(false);
 
   const handleClick = event => {
     setIsShown(current => !current);
@@ -35,7 +35,7 @@ function Projects() {
     setIsShown6(false);
     setIsShown7(false);
     setIsShown8(false);
-    setCover(false);
+    setCover3(false);
   };
   const handleClick2 = event => {
     setIsShown2(current => !current);
@@ -46,7 +46,7 @@ function Projects() {
     setIsShown6(false);
     setIsShown7(false);
     setIsShown8(false);
-    setCover(false);
+    setCover3(false);
   };  
   const handleClick3 = event => {
     setIsShown3(current => !current);
@@ -57,7 +57,7 @@ function Projects() {
     setIsShown6(false);
     setIsShown7(false);
     setIsShown8(false);
-    setCover(false);
+    setCover3(false);
   };
   const handleClick4 = event => {
     setIsShown4(current => !current);
@@ -68,6 +68,7 @@ function Projects() {
     setIsShown6(false);
     setIsShown7(false);
     setIsShown8(false);
+    setCover3(false);
   };
   const handleClick5 = event => {
     setIsShown5(current => !current);
@@ -78,7 +79,7 @@ function Projects() {
     setIsShown6(false);
     setIsShown7(false);
     setIsShown8(false);
-    setCover(false);
+    setCover3(false);
   };
   const handleClick6 = event => {
     setIsShown6(current => !current);
@@ -89,7 +90,7 @@ function Projects() {
     setIsShown5(false);
     setIsShown7(false);
     setIsShown8(false);
-    setCover(false);
+    setCover3(false);
   };
   const handleClick7 = event => {
     setIsShown7(current => !current);
@@ -100,7 +101,7 @@ function Projects() {
     setIsShown5(false);
     setIsShown6(false);
     setIsShown8(false);   
-    setCover(false);
+    setCover3(false);
   };
   const handleClick8 = event => {
     setIsShown8(current => !current);
@@ -111,10 +112,10 @@ function Projects() {
     setIsShown5(false);
     setIsShown6(false);
     setIsShown7(false);
-    setCover(false);
+    setCover3(false);
   };
   const igClick = event => {
-    setCover(current => !current);
+    setCover3(current => !current);
     setIsShown3(false);
   };
     return (
@@ -135,7 +136,7 @@ function Projects() {
           <iframe frameborder="0" title="travelapp" width="1000" height="500" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FMZZUuElCT2hAQ0yZ480mmp%2FDI-Travel-App-Project-WQ23-(Copy)%3Ftype%3Ddesign%26node-id%3D47-2407%26t%3DKeeRiRuMfDUrNuTY-1%26scaling%3Dscale-down%26page-id%3D1%253A67%26starting-point-node-id%3D47%253A2407%26hotspot-hints%3D0%26mode%3Ddesign%26hide-ui%3D1" allowFullScreen> </iframe>   
           </div>
           </FadeIn> )}
-          {coverShown && (
+          {coverShown3 && (
             <FadeIn>
             <div> 
           <iframe frameborder="0" title="shopapp" width="1000" height="500" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F7IxMljoy3vMJ3IHSPDq4Da%2FHi-Fi-Prototypes%3Ftype%3Ddesign%26node-id%3D27-2918%26t%3DcLuAbGg9P0zeUSNZ-1%26scaling%3Dscale-down%26page-id%3D27%253A2917%26starting-point-node-id%3D27%253A2918%26hotspot-hints%3D0%26mode%3Ddesign%26hide-ui%3D1" allowFullScreen> </iframe>   
