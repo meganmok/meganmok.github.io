@@ -35,6 +35,7 @@ function Projects() {
     setIsShown6(false);
     setIsShown7(false);
     setIsShown8(false);
+    setCover(false);
   };
   const handleClick2 = event => {
     setIsShown2(current => !current);
@@ -45,6 +46,7 @@ function Projects() {
     setIsShown6(false);
     setIsShown7(false);
     setIsShown8(false);
+    setCover(false);
   };  
   const handleClick3 = event => {
     setIsShown3(current => !current);
@@ -76,6 +78,7 @@ function Projects() {
     setIsShown6(false);
     setIsShown7(false);
     setIsShown8(false);
+    setCover(false);
   };
   const handleClick6 = event => {
     setIsShown6(current => !current);
@@ -86,6 +89,7 @@ function Projects() {
     setIsShown5(false);
     setIsShown7(false);
     setIsShown8(false);
+    setCover(false);
   };
   const handleClick7 = event => {
     setIsShown7(current => !current);
@@ -95,7 +99,8 @@ function Projects() {
     setIsShown4(false);
     setIsShown5(false);
     setIsShown6(false);
-    setIsShown8(false);
+    setIsShown8(false);   
+    setCover(false);
   };
   const handleClick8 = event => {
     setIsShown8(current => !current);
@@ -106,6 +111,7 @@ function Projects() {
     setIsShown5(false);
     setIsShown6(false);
     setIsShown7(false);
+    setCover(false);
   };
   const igClick = event => {
     setCover(current => !current);
