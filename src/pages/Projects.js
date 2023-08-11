@@ -39,23 +39,15 @@ function Projects() {
         </div>
         <div id = "projectMiddle">
         {isShown && (<div>  
-    <FadeIn>
-    <p id = "shellCommand" className= "typewriter"> cat description.txt </p>
-    <p id = "shellDescription1" className= "shellText"> a C program that is designed to emulate the linux shell, by creating a shell environment for the user. 
-</p>
-<p id = "shellDescription2" className= "shellText"> implements basic directory functions, in addition to the incorporation of a directory stack. 
-</p>
-<p id = "shellDescription3" className= "shellText"> handles simple commands, the piping of multiple commands, as well as standard input and output redirection.
-</p>
-    <img src = {linux} id = "linux" alt = "linux" />
-    </FadeIn>
-</div>)}
+          <iframe frameborder="0" title="daily mood" width="372px" height="650px" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fneq1I7gN4DN84bdRlN6XGh%2FdailyMOOd%3Fkind%3D%26node-id%3D669-3832%26page-id%3D90%253A167%26scaling%3Dscale-down%26starting-point-node-id%3D669%253A3832%26t%3DxIHoYS2W0bBJcvt9-1%26type%3Ddesign%26mode%3Ddesign%26hide-ui%3D1" allowFullScreen> </iframe>
+          </div>)}
         </div>
+
         <div id = "projectBottom">
         <div id = "designs">
         <p className = "groupName"> designs</p>
         <div id = "designsContainer" className = "container"> 
-        <img src = {dm} className = "app" id = "dm" alt = "dailymood" />
+        <img src = {dm} className = "app" id = "dm" alt = "dailymood" onClick = {handleClick}/>
         <img src = {travel} className = "app" id = "travel" alt = "travel" />
         <img src = {cart} className = "app" id = "cart" alt = "cart"/>
         </div>
@@ -75,7 +67,7 @@ function Projects() {
         <div id = "programs">
         <p className = "groupName"> programs</p>
         <div id = "progsContainer" className = "container"> 
-        <img src = {shell} className = "app" id = "shell" alt = "shell" onClick = {handleClick}/>
+        <img src = {shell} className = "app" id = "shell" alt = "shell" />
         <img src = {apple} className = "app" id = "apple" alt = "apple"/>
         <img src = {canvas} className = "app" id = "canvas" alt = "canvas"/>
         </div>
