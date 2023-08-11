@@ -55,6 +55,7 @@ function Projects() {
     setIsShown6(false);
     setIsShown7(false);
     setIsShown8(false);
+    setCover(false);
   };
   const handleClick4 = event => {
     setIsShown4(current => !current);
