@@ -87,74 +87,27 @@
 }
 
 @media screen and (max-width:900px) {
-  #chickyDialogue {
-    font-size: 18px;
+
+  #chicky {
+    height: 200px;
   }
 
-  #chickySpeech {
-    margin-top: 30px;
-  }
   #speechBubble {
-    width: 250px;
-    max-width: 15ch;
-  }
-  #home {
-    margin-top: 0px;
-  }
-  #chicky {
-    margin-top: 0px;
-    height: 180px;
-  }
+    height: 300px;
+}
+
+#chickyDialogue {
+  font-size: 17px;
+}
 
 }
 
 @media screen and (max-width:700px) {
-  #chickyDialogue {
-    font-size: 13px;
-  }
-
-  #chickySpeech {
-    margin-top: 50px;
-  }
-
-  #speechBubble {
-    width: 200px;
-    max-width: 10ch;
-  }
-  #home {
-    margin-top: 0px;
-  }
-  #chicky {
-    margin-top: 0px;
-    margin-bottom: 40px;
-    height: 150px;
-  }
 
 }
 
 @media screen and (max-width:500px) {
-  #chickyDialogue {
-    font-size: 11px;
-  }
 
-  #chickySpeech {
-    margin-top: 30px;
-  }
-
-  #speechBubble {
-    width: 140px;
-    height: auto;
-  }
-
-  #home {
-    margin-top: 0px;
-  }
-
-  #chicky {
-    margin-top: 0px;
-    height: auto;
-    width: 80px;
-  }
 
 }
 
