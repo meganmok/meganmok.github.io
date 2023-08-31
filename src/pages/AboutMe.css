@@ -58,7 +58,7 @@ p {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 50vw;
+    height: 100vh;
 }
 
 #title {
@@ -171,161 +171,31 @@ p {
 }
 
 @media screen and (max-width:900px) {
-    #meggy {
-        height: 100px;
-    }
 
     #title {
         font-size: 18px;
     }
 
-    p {
-        font-size: 13px;
-    }
-}
-
-@media screen and (max-width:700px) {
-    #meggy {
-        height: 80px;
-    }
-
-    #title {
-        font-size: 14px;
-        margin-bottom: -4px;
-        margin-right: 30px;
-    }
-
-    p {
-        font-size: 10px;
-    }    
-
     h1 {
-        padding-bottom: 20px;
-        margin-right: 20px;
-        margin-top: 0px;
+        margin-right: 35px;
     }
-
 
     #aboutme {
-        height: 85vw;
-    }
-
-    span {
-        font-size: 12px;
-    }
-
-    .emoji {
-        width: 10px;
-        height: 10px;
-        margin-top: 2px;
-    }
-
-    .specialEmoji {
-        width: 10px;
-        height: 10px;
-        margin-top: 2px;
-    }
-
-    .emojiText {
         display: flex;
-        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 50vh;
     }
 
-    #intro {
-        width: 300px;
-        margin-bottom: 50px;
-        padding-right: 5px;
     }
 
-    .introText {
-        margin: 3px;
-        margin-left: 13px;
-    }
+@media screen and (max-width:700px) {
 
 
 }
 
 @media screen and (max-width:500px) {
-
-    #meggy {
-        height: auto;
-        width: 90%;
-    }
-
-    #title {
-        font-size: 10px;
-        width: 50px;
-        margin-left: 40%;
-    }
-
-    p {
-        font-size: 7px;
-    }    
-
-    h1 {
-        margin-right: 3%;
-        margin-top: 18px;
-        border-radius: 10px;
-        padding-right: 2px;
-        padding-left: 2px;
-        padding-top: 7px;
-        padding-bottom: 15px;
-        margin-bottom: 0px;
-        width: 15%;
-        height: auto;
-        margin-left: 25%;
-    }
-
-    #aboutme {
-        height: 100vw;
-    }
-
-    span {
-        font-size: 6.5px;
-    }
-
-    .emoji {
-        width: 5px;
-        height: 5px;
-        margin-top: 2px;
-    }
-
-    .specialEmoji {
-        width: 5px;
-        height: 5px;
-        margin-top: 2px;
-    }
-
-    .emojiText {
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 0px;
-        margin-top: 0px;
-    }
-
-    #intro {
-        width: 60%;
-        height: auto;
-        padding-right: 5px;
-        padding-left: 6px;
-        padding-top: 2px;
-        padding-bottom: 4px;
-        border-radius: 10px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin-right: 10%;
-    }
-
-    .introText {
-        margin: 0px;
-        margin-left: 8.5px;
-        margin-top: 3.25px;
-    }
-
-    #introContainer {
-        width: 80%;
-    }
-
 
 }
 
