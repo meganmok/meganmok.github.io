@@ -25,6 +25,7 @@ function Projects() {
   const [isShown6, setIsShown6] = useState(false);
   const [isShown7, setIsShown7] = useState(false);
   const [isShown8, setIsShown8] = useState(false);
+  const [coverShown, setCover] = useState(false);
   const [coverShown2, setCover2] = useState(false);
   const [coverShown3, setCover3] = useState(false);
 
@@ -117,6 +118,10 @@ function Projects() {
     setCover3(false);
   };
   const dmClick = event => {
+    setCover(current => !current);
+    setIsShown(false);
+  };
+  const travelClick = event => {
     setCover2(current => !current);
     setIsShown2(false);
   };
@@ -130,23 +135,30 @@ function Projects() {
         <p id = "projectTitle" className = "headerContent"> personal projects</p>
         </div>
         <div id = "projectMiddle">
+        {coverShown && (
+            <FadeIn>
+            <div> 
+            <iframe frameborder="0" title="dailymood" width="1000" height="500" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FQZQozvUXfCMURNVzpJq2ym%2FdailyMOOd-(Copy)%3Ftype%3Ddesign%26node-id%3D162-1718%26t%3Dbo08uXDVRrLAlOCN-1%26scaling%3Dscale-down%26page-id%3D90%253A167%26starting-point-node-id%3D162%253A1718%3D0%26mode%3Ddesign%26hide-ui%3D1" allowFullScreen> </iframe>   
+          </div>
+            </FadeIn>
+          )}
         {isShown && (
         <FadeIn>
           <div> 
-          <iframe frameborder="0" title="dailymood" width="1000" height="500" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FQZQozvUXfCMURNVzpJq2ym%2FdailyMOOd-(Copy)%3Ftype%3Ddesign%26node-id%3D162-1718%26t%3Dbo08uXDVRrLAlOCN-1%26scaling%3Dscale-down%26page-id%3D90%253A167%26starting-point-node-id%3D162%253A1718%3D0%26mode%3Ddesign%26hide-ui%3D1" allowFullScreen> </iframe>   
+          <img src = {dm_login} id = "dmlogin" alt = "dm login" onClick = {dmClick}/> 
           </div>
           </FadeIn> )}
           {coverShown2 && (
             <FadeIn>
             <div> 
-          <iframe frameborder="0" title="shopapp" width="1000" height="500" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F7IxMljoy3vMJ3IHSPDq4Da%2FHi-Fi-Prototypes%3Ftype%3Ddesign%26node-id%3D27-2918%26t%3DcLuAbGg9P0zeUSNZ-1%26scaling%3Dscale-down%26page-id%3D27%253A2917%26starting-point-node-id%3D27%253A2918%3D0%26mode%3Ddesign%26hide-ui%3D1" allowFullScreen> </iframe>   
+          <iframe frameborder="0" title="dmapp" width="1000" height="500" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FMZZUuElCT2hAQ0yZ480mmp%2FDI-Travel-App-Project-WQ23-(Copy)%3Fpage-id%3D1%253A67%26node-id%3D47-2407%26starting-point-node-id%3D47%253A2407%26mode%3Ddesign%26t%3DGY36D98TrTxFYnAF-1%26mode%3Ddesign%26hide-ui%3D1"  allowFullScreen> </iframe>   
           </div>
             </FadeIn>
           )}
             {isShown2 && (
         <FadeIn>
           <div> 
-          <img src = {dm_login} id = "dmlogin" alt = "dm login" onClick = {dmClick}/> 
+          <img src = {dm_login} id = "dmlogin" alt = "dm login" onClick = {travelClick}/> 
           </div>
           </FadeIn> )}
 
