@@ -38,6 +38,8 @@ function Projects() {
     setIsShown6(false);
     setIsShown7(false);
     setIsShown8(false);
+    setCover(false);
+    setCover2(false);
     setCover3(false);
   };
   const handleClick2 = event => {
@@ -49,6 +51,8 @@ function Projects() {
     setIsShown6(false);
     setIsShown7(false);
     setIsShown8(false);
+    setCover(false);
+    setCover2(false);
     setCover3(false);
   };  
   const handleClick3 = event => {
@@ -60,6 +64,8 @@ function Projects() {
     setIsShown6(false);
     setIsShown7(false);
     setIsShown8(false);
+    setCover(false);
+    setCover2(false);
     setCover3(false);
   };
   const handleClick4 = event => {
@@ -71,6 +77,8 @@ function Projects() {
     setIsShown6(false);
     setIsShown7(false);
     setIsShown8(false);
+    setCover(false);
+    setCover2(false);
     setCover3(false);
   };
   const handleClick5 = event => {
@@ -82,6 +90,8 @@ function Projects() {
     setIsShown6(false);
     setIsShown7(false);
     setIsShown8(false);
+    setCover(false);
+    setCover2(false);
     setCover3(false);
   };
   const handleClick6 = event => {
@@ -93,6 +103,8 @@ function Projects() {
     setIsShown5(false);
     setIsShown7(false);
     setIsShown8(false);
+    setCover(false);
+    setCover2(false);
     setCover3(false);
   };
   const handleClick7 = event => {
@@ -104,6 +116,8 @@ function Projects() {
     setIsShown5(false);
     setIsShown6(false);
     setIsShown8(false);   
+    setCover(false);
+    setCover2(false);
     setCover3(false);
   };
   const handleClick8 = event => {
@@ -115,6 +129,8 @@ function Projects() {
     setIsShown5(false);
     setIsShown6(false);
     setIsShown7(false);
+    setCover(false);
+    setCover2(false);
     setCover3(false);
   };
   const dmClick = event => {
