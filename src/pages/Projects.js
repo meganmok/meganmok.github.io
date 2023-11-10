@@ -167,7 +167,7 @@ function Projects() {
           {coverShown2 && (
             <FadeIn>
             <div> 
-          <iframe frameborder="0" title="dmapp" width="1000" height="500" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FMZZUuElCT2hAQ0yZ480mmp%2FDI-Travel-App-Project-WQ23-(Copy)%3Fpage-id%3D1%253A67%26node-id%3D47-2407%26starting-point-node-id%3D47%253A2407%26mode%3Ddesign%26t%3DGY36D98TrTxFYnAF-1%26mode%3Ddesign%26hide-ui%3D1"  allowFullScreen> </iframe>   
+          <iframe frameborder="0" title="travelapp" width="1000" height="500" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FMZZUuElCT2hAQ0yZ480mmp%2FDI-Travel-App-Project-WQ23-(Copy)%3F%26scaling%3Dscale-down%26page-id%3D1%253A67%26node-id%3D47-2407%26starting-point-node-id%3D47%253A2407%26mode%3Ddesign%26t%3DGY36D98TrTxFYnAF-1%26mode%3Ddesign%26hide-ui%3D1"  allowFullScreen> </iframe>   
           </div>
             </FadeIn>
           )}
