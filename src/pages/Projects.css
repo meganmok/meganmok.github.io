@@ -16,6 +16,9 @@
     cursor: pointer;
 }
 
+#tplanner:hover {
+    cursor: pointer;
+}
 #comingSoon {
     font-family: Borel;
     width: auto;
