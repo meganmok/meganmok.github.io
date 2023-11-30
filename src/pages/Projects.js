@@ -14,6 +14,7 @@ import igshop from '../components/images/ig_shop.png';
 import dm from '../components/images/dm_app.png';
 import dm_login from '../components/images/dm_login.png';
 import travel from '../components/images/travel_app.png';
+import tplanner from '../components/images/trip_planner.png';
 import ec from '../components/images/espressco_app.png';
 
 function Projects() {
@@ -174,7 +175,7 @@ function Projects() {
             {isShown2 && (
         <FadeIn>
           <div> 
-          <img src = {dm_login} id = "dmlogin" alt = "dm login" onClick = {travelClick}/> 
+          <img src = {tplanner} id = "tplanner" alt = "trip planner" onClick = {travelClick}/> 
           </div>
           </FadeIn> )}
 
