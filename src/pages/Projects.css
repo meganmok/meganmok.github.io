@@ -420,6 +420,10 @@ iframe {
   }
 
   @media screen and (max-width:700px) {
+    #projects {
+        height: 50vh;
+    }
+
     #projectTitle {
         font-size: 14px;
     }

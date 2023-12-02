@@ -135,14 +135,23 @@ function Projects() {
     setCover3(false);
   };
   const dmClick = event => {
+    if (window.innerWidth <= 900) {
+      return;
+   }
     setCover(current => !current);
     setIsShown(false);
   };
   const travelClick = event => {
+    if (window.innerWidth <= 900) {
+      return;
+   }
     setCover2(current => !current);
     setIsShown2(false);
   };
   const igClick = event => {
+    if (window.innerWidth <= 900) {
+      return;
+   }
     setCover3(current => !current);
     setIsShown3(false);
   };
@@ -181,7 +190,7 @@ function Projects() {
 
           {coverShown3 && (
             <FadeIn>
-            <div> 
+            <div>
           <iframe frameborder="0" title="shopapp" width="1000" height="500" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F7IxMljoy3vMJ3IHSPDq4Da%2FHi-Fi-Prototypes%3Ftype%3Ddesign%26node-id%3D27-2918%26t%3DcLuAbGg9P0zeUSNZ-1%26scaling%3Dscale-down%26page-id%3D27%253A2917%26starting-point-node-id%3D27%253A2918%3D0%26mode%3Ddesign%26hide-ui%3D1" allowFullScreen> </iframe>   
           </div>
             </FadeIn>
