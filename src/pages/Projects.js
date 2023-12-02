@@ -136,6 +136,7 @@ function Projects() {
   };
   const dmClick = event => {
     if (window.innerWidth <= 900) {
+      window.open("https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FQZQozvUXfCMURNVzpJq2ym%2FdailyMOOd-(Copy)%3Ftype%3Ddesign%26node-id%3D162-1718%26t%3Dbo08uXDVRrLAlOCN-1%26scaling%3Dscale-down%26page-id%3D90%253A167%26starting-point-node-id%3D162%253A1718%3D0%26mode%3Ddesign%26hide-ui%3D1");
       return;
    }
     setCover(current => !current);
@@ -143,6 +144,7 @@ function Projects() {
   };
   const travelClick = event => {
     if (window.innerWidth <= 900) {
+      window.open("https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FMZZUuElCT2hAQ0yZ480mmp%2FDI-Travel-App-Project-WQ23-(Copy)%3F%26scaling%3Dscale-down%26page-id%3D1%253A67%26node-id%3D47-2407%26starting-point-node-id%3D47%253A2407%26mode%3Ddesign%26t%3DGY36D98TrTxFYnAF-1%26mode%3Ddesign%26hide-ui%3D1");
       return;
    }
     setCover2(current => !current);
@@ -150,6 +152,7 @@ function Projects() {
   };
   const igClick = event => {
     if (window.innerWidth <= 900) {
+      window.open("https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F7IxMljoy3vMJ3IHSPDq4Da%2FHi-Fi-Prototypes%3Ftype%3Ddesign%26node-id%3D27-2918%26t%3DcLuAbGg9P0zeUSNZ-1%26scaling%3Dscale-down%26page-id%3D27%253A2917%26starting-point-node-id%3D27%253A2918%3D0%26mode%3Ddesign%26hide-ui%3D1");
       return;
    }
     setCover3(current => !current);
