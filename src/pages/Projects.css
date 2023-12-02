@@ -381,15 +381,16 @@ iframe {
     .macTypewriter {
         border-right: 6.5px solid gray;
     }
+
     .macText {
         font-size: 10px;
         width: 330px;
     }
 
     #canvas_info {
-        height: 230px;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        height: 280px;
+        margin-top: 62px;
+        margin-bottom: 62px;
     }
 
     #tiktokpets {
