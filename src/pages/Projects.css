@@ -289,13 +289,6 @@ iframe {
         gap: 20px;
     }
 
-    iframe {
-        margin-top: -50px;
-        margin-bottom: -50px;
-        height: 300px;
-        width: 200px;
-    }
-    
     .container {
         gap: 0px;
         border-radius: 25px;
@@ -537,6 +530,7 @@ iframe {
         margin-top: 10px;
         margin-bottom: 10px;
     }
+
   }
 
   @media screen and (max-width:500px) {
