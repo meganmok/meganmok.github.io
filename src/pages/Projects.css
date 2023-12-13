@@ -283,6 +283,11 @@ iframe {
   }
 
   @media screen and (max-width:900px) {
+
+    #projects {
+        height: 70vh;
+    }
+
     #projectDock {
         display: flex;
         flex-direction: row;
@@ -308,7 +313,7 @@ iframe {
     }
     
     #projectHeader {
-        margin-top: 80px;
+        margin-top: 150px;
         margin-bottom: 5px;
     }
 
