@@ -75,7 +75,7 @@
     #smiley {
         width: auto;
         height: 100px;
-        margin-top: 130px;
+        margin-top: 0px;
         margin-bottom: 0px;
       }
     
@@ -90,12 +90,13 @@
     
       #goodbyeSpeech {
         margin-top: 0px;
-        margin-bottom: 100px;
-        margin-right: 30px;
+        margin-bottom: 0px;
+        margin-right: 0px;
         margin-left: 0px;
       }
     
       #footer {
-        margin-top: 90px;
+        margin-top: 0px;
+        height: 80vh;
       }
     }
