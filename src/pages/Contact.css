@@ -206,34 +206,28 @@
 
 
 @media screen and (max-width:700px) {
+
+  #contact {
+    height: 70vh;
+  }
+  
   #meg {
-    width: 20%;
-    margin-top: 150px;
+    width: 80px;
+    margin-top: 45px;
   }
 
-  #socials {
-    display: flex;
-    height: 10%;
-    width: 40%;
-    margin-top: 210px;
-}
-
   #mail {
-    width: 85%;
-    height: auto;
-    margin-top: 30%;
+    width: 50px;
   }
 
   #linkedin {
-    width: 85%;
-    height: auto;
-    margin-top: 70%;
+    width: 50px;
+    margin-top: 30px;
   }
 
   #github {
-    width: 85%;
-    height: auto;
-    margin-top: 30%;
+    width: 50px;
+    margin-top: 0px;
   }
 
   .text {
@@ -251,6 +245,7 @@
   #firstText {
     margin-top: 130px;
   }
+
   #secondText::before {
     background-color: #FAFAFA;
     width: 17px;
@@ -268,7 +263,7 @@
   }
 
   #iMessage {
-    margin-top: 1%;
+    margin-top: 110px;
   }
 
 }
