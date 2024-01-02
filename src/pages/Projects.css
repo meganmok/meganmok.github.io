@@ -424,7 +424,7 @@ iframe {
 
   @media screen and (max-width:700px) {
     #projects {
-        height: 50vh;
+        height: 80vh;
     }
 
     #projectTitle {
@@ -445,17 +445,20 @@ iframe {
     .app {
         width: 30px;
         height: 30px;
-        margin: 6px;
-        border-radius: 8px;
+        margin: 1px;
+        border-radius: 7px;
     }
 
-    #iconBar {
-        padding-right: 6px;
-        padding-left: 6px;
-        padding-top: 1.5px;
-        padding-bottom: 1.5px;
-        margin-top: 10px;
-        border-radius: 18px;
+    .container {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        background-color: #F5F5F5;
+        border-radius: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 
     #linux {
@@ -541,6 +544,32 @@ iframe {
         margin-bottom: 10px;
     }
 
+    #dmlogin {
+        height: 200px;
+        width: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #tplanner {
+        height: 200px;
+        width: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #comingSoon {
+        font-family: Borel;
+        width: auto;
+        height: 200px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        color: gray;
+    }
+    
 
 
   }
