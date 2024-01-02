@@ -194,35 +194,37 @@ p {
     
         #meggy {
             height: auto;
-            width: 90%;
+            width: 50px;
         }
     
         #title {
             font-size: 10px;
             width: 50px;
-            margin-left: 40%;
+            margin-left: 100px;
         }
     
         p {
-            font-size: 7px;
+            font-size: 6px;
         }    
     
         h1 {
-            margin-right: 3%;
+            margin-right: 10px;
             margin-top: 18px;
             border-radius: 10px;
-            padding-right: 2px;
-            padding-left: 2px;
+            padding-right: 5px;
+            padding-left: 5px;
             padding-top: 7px;
             padding-bottom: 15px;
             margin-bottom: 0px;
-            width: 15%;
+            width: 60px;
             height: auto;
-            margin-left: 25%;
         }
     
         #aboutme {
-            height: 100vw;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
         }
     
         span {
@@ -249,7 +251,7 @@ p {
         }
     
         #intro {
-            width: 60%;
+            width: 170px;
             height: auto;
             padding-right: 5px;
             padding-left: 6px;
@@ -258,17 +260,12 @@ p {
             border-radius: 10px;
             margin-top: 0px;
             margin-bottom: 0px;
-            margin-right: 10%;
         }
     
         .introText {
             margin: 0px;
             margin-left: 8.5px;
             margin-top: 3.25px;
-        }
-    
-        #introContainer {
-            width: 80%;
         }
     
     
