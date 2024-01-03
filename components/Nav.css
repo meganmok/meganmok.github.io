@@ -1,0 +1,130 @@
+ul {
+    list-style-type: none;
+}
+
+
+#navBar {
+  display: flex;
+  flex-direction: row;
+  font-family: Borel, sans-serif;
+  position: fixed;
+  justify-content: flex-end;
+  width: 98%;
+}
+
+li {
+  margin: 0px;
+}
+
+li .active {
+  font-family: Borel, sans-serif;
+  font-weight: 600;
+} 
+
+li:hover {
+    font-family: Borel, sans-serif;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+.wiggle {
+  animation-name: wiggle;
+  animation-duration: 2s;
+}
+
+.change-eggs {
+    position: fixed;
+}
+
+.change-eggs .change-egg:nth-of-type(2) {
+    display: none;
+  }
+
+.change-eggs:hover .change-egg:nth-of-type(1) {
+    display: none;
+  }
+  
+.change-eggs:hover .change-egg:nth-of-type(2) {
+    display: block;
+    animation: wiggle 2s forwards linear;
+  }
+
+.icon {
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 90px;
+}
+
+  /* Animation stuff */
+  @keyframes wiggle {
+    0%, 7% { transform: rotateZ(0); opacity: 1; }
+    15% { transform: rotateZ(-15deg); opacity: 1; }
+    20% { transform: rotateZ(10deg); }
+    25% { transform: rotateZ(-10deg); }
+    30% { transform: rotateZ(6deg); }
+    35% { transform: rotateZ(-4deg); }
+    40%, 100% { transform: rotateZ(0); }
+  }
+
+
+@font-face { 
+  font-family: Borel; src: url('./fonts/Borel-Regular.ttf'); 
+} 
+
+
+@font-face { 
+    font-family: Apparel-Black; src: url('./fonts/apparel-black.otf'); 
+} 
+
+@font-face {
+    font-family: Apparel-Bold; src: url('./fonts/apparel-bold.otf'); 
+}
+
+@keyframes slideUp {
+  0% {
+      transform: translateY(100px);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+
+@media screen and (max-width:900px) {
+  #navBar {
+    padding-right: 0px;
+    justify-content: center;
+    font-size: 14px;
+    padding-top: 5px;
+    z-index: 3000;
+  }
+
+  .icon {
+    margin-left: 15px;
+    width: 65px;
+}
+
+}
+
+@media screen and (max-width:700px) {
+  #navBar {
+    font-size: 12px;
+    padding-top: 10px;
+  }
+
+  .icon {
+    margin-left: 10px;
+    width: 60px;
+  }
+
+}
+
+
+@media (prefers-reduced-motion) {
+  .wiggle {
+    animation: none;
+  }
+
+  header {
+    animation: none;
+  }
+}
