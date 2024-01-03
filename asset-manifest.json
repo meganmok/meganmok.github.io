@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.4359e4fb.css",
-    "main.js": "/static/js/main.f0ec9288.js",
-    "static/js/512.42a07839.chunk.js": "/static/js/512.42a07839.chunk.js",
+    "main.css": "/static/css/main.cc005d08.css",
+    "main.js": "/static/js/main.3a620971.js",
+    "static/js/787.1902d090.chunk.js": "/static/js/787.1902d090.chunk.js",
     "static/media/ig_shop.png": "/static/media/ig_shop.5f2b8ef1072e106cdc2a.png",
     "static/media/meg.png": "/static/media/meg.d4d49d95961ff1567448.png",
     "static/media/Ubuntu-Regular.ttf": "/static/media/Ubuntu-Regular.1cbb1b79a23478cc89ad.ttf",
@@ -29,12 +29,12 @@
     "static/media/linux_terminal.png": "/static/media/linux_terminal.27b5ae8cd63faba48594.png",
     "static/media/shell_app.png": "/static/media/shell_app.f0134db3670d106da2e1.png",
     "index.html": "/index.html",
-    "main.4359e4fb.css.map": "/static/css/main.4359e4fb.css.map",
-    "main.f0ec9288.js.map": "/static/js/main.f0ec9288.js.map",
-    "512.42a07839.chunk.js.map": "/static/js/512.42a07839.chunk.js.map"
+    "main.cc005d08.css.map": "/static/css/main.cc005d08.css.map",
+    "main.3a620971.js.map": "/static/js/main.3a620971.js.map",
+    "787.1902d090.chunk.js.map": "/static/js/787.1902d090.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4359e4fb.css",
-    "static/js/main.f0ec9288.js"
+    "static/css/main.cc005d08.css",
+    "static/js/main.3a620971.js"
   ]
 }
