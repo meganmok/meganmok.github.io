@@ -269,3 +269,74 @@
   }
 
 }
+
+@media screen and (max-width:500px) {
+  #contact {
+    height: 50vh;
+  }
+  #meg {
+    width: 20%;
+    margin-top: 30px;
+  }
+
+  #socials {
+    display: flex;
+    height: 10%;
+    width: 40%;
+    margin-top: 90px;
+}
+
+  #mail {
+    width: 85%;
+    height: auto;
+    margin-top: 30%;
+  }
+
+  #linkedin {
+    width: 85%;
+    height: auto;
+    margin-top: 70%;
+  }
+
+  #github {
+    width: 85%;
+    height: auto;
+    margin-top: 30%;
+  }
+
+  .text {
+    font-size: 8px;
+    padding: 1px 10px;
+  }
+
+  .text::before, ::after {
+    content: "";
+		position: absolute;
+    bottom: 0;
+    height: 10px;
+  }
+
+  #firstText {
+    margin-top: 130px;
+  }
+  #secondText::before {
+    background-color: #FAFAFA;
+    width: 17px;
+  }
+
+  
+  #secondText::after {
+    background-color:  #FAEED1;
+    left: -25px;
+  }
+
+  #contactMe {
+    font-size: 10px;
+    margin-top: 100px;
+  }
+
+  #iMessage {
+    margin-top: 100px;
+  }
+
+}

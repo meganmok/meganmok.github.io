@@ -132,6 +132,26 @@
 
 }
 
+@media screen and (max-width:500px) {
+  #chickyDialogue {
+    font-size: 11px;
+  }
+
+  #chickySpeech {
+    margin-top: 10px;
+  }
+
+  #speechBubble {
+    width: 140px;
+    height: auto;
+  }
+
+  #home {
+    margin-top: 0px;
+  }
+
+}
+
 @media (prefers-reduced-motion) {
   .fade-in-image {
     animation: none;

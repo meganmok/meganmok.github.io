@@ -26,8 +26,9 @@
 #tplanner:hover {
     cursor: pointer;
 }
+
 #comingSoon {
-    font-family: Borel;
+    font-family: Borel, sans-serif;
     width: auto;
     height: 350px;
     margin-top: 26.75px;
@@ -559,17 +560,147 @@ iframe {
     }
 
     #comingSoon {
-        font-family: Borel;
-        width: auto;
         height: 200px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        display: flex;
-        align-items: center;
         font-size: 12px;
-        color: gray;
     }
     
 
 
+  }
+
+  @media screen and (max-width:500px) {
+
+    #projectTitle {
+        font-size: 10px;
+    }
+
+    #projectComment {
+        font-size: 6px;
+        width: 125px;
+        margin-top: 3px;
+    }
+    
+    #projectHeader {
+        margin-top: 150px;
+        margin-bottom: 10px;
+    }
+
+    .app {
+        width: 25px;
+        height: 25px;
+        margin: 1px;
+        border-radius: 4px;
+    }
+
+    .container {
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        border-radius: 10px;
+    }
+
+    #linux {
+        height: 120px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .typewriter {
+        border-right: 4px solid;
+    }
+
+    #shellCommand {
+        font-size: 7px;
+        margin-top: 37.7px;
+        margin-left: 50px;
+    }
+
+    .shellText {
+        font-size: 7px;
+        width: 172px;
+        margin-left: 4px;
+    }
+
+    #shellDescription1 {
+        margin-top: 55px;
+    }
+
+    #shellDescription2 {
+        margin-top: 80px;
+    }
+
+    #shellDescription3 {
+        margin-top: 105px;
+    }
+
+    #mac {
+        height: 120px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .macTypewriter {
+        border-right: 4px solid gray;
+    }
+    #macCommand {
+        font-size: 5.5px;
+        margin-top: 38px;
+        margin-left: 60px;
+    }
+
+    #macDescription1 {
+        margin-top: 50px;
+    }
+
+    #macDescription2 {
+        margin-top: 75px;
+    }
+
+    #macDescription3 {
+        margin-top: 105px;
+    }
+
+    .macText {
+        font-size: 5.5px;
+        width: 170px;
+        margin-left: 4px;
+    }
+
+    #canvas_info {
+        height: 120px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #tiktokpets {
+        height: 200px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }    
+
+    #igshop {
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    #comingSoon {
+        font-size: 9px;
+        height: 200px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #dmlogin {
+        height: 120px;
+        width: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #tplanner {
+        height: 120px;
+        width: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
   }
