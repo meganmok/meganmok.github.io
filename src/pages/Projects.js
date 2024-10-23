@@ -214,7 +214,7 @@ function Projects() {
         </div>
         {isShown5 && (<div>  
             <FadeIn>
-            <a href = "https://tiktokpets-stage-3-meganmok.ecs162-s22.repl.co/" target="_blank" rel="noopener noreferrer"> 
+            <a href = "https://a1b0dc74-d5d4-4aff-a99f-06a2a8cea900-00-2qhfeixi9hapt.janeway.replit.dev/" target="_blank" rel="noopener noreferrer"> 
             <img src = {tiktokpets} id = "tiktokpets" alt = "tiktok pets" /> 
             </a>
              </FadeIn>
