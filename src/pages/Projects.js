@@ -9,6 +9,7 @@ import shiba from '../components/images/shiba_app.png';
 import linux from '../components/images/linux_terminal.png';
 import mac from '../components/images/mac_terminal.png';
 import canvas_info from '../components/images/canvas_algo.png';
+import espressco from '../components/images/espressco.png';
 import tiktokpets from '../components/images/tiktokpets.png';
 import igshop from '../components/images/ig_shop.png';
 import dm from '../components/images/dm_app.png';
