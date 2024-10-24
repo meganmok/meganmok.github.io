@@ -207,11 +207,14 @@ function Projects() {
           </FadeIn> )}
          {/* end of designs */}
          {isShown4 && (
-        <FadeIn>
           <div> 
-          <p id = "comingSoon"> coming soon! </p>
+          <FadeIn>
+          <a href = "https://meganmok.github.io/espressco/" target="_blank" rel="noopener noreferrer"> 
+          <img src = {espressco} id = "espressco" alt = "the espressco" onClick = {espresscoClick}/> 
+          </a>
+          </FadeIn> 
           </div>
-          </FadeIn> )}
+          )}
         </div>
         {isShown5 && (<div>  
             <FadeIn>
