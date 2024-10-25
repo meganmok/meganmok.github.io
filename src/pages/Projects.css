@@ -329,6 +329,11 @@ iframe {
         margin: 10px;
     }
 
+    .groupName {
+        font-family: "Karla Regular", sans-serif;
+        font-size: 14px;
+    }
+
     #iconBar {
         padding-right: 4px;
         padding-left: 4px;
@@ -459,6 +464,11 @@ iframe {
         height: 30px;
         margin: 1px;
         border-radius: 7px;
+    }
+
+    .groupName {
+        font-family: "Karla Regular", sans-serif;
+        font-size: 8px;
     }
 
     .container {
@@ -607,6 +617,11 @@ iframe {
         height: 25px;
         margin: 1px;
         border-radius: 4px;
+    }
+
+    .groupName {
+        font-family: "Karla Regular", sans-serif;
+        font-size: 6px;
     }
 
     .container {
