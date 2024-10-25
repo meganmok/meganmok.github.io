@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3b941e24.css",
-    "main.js": "/static/js/main.57ec2ca7.js",
+    "main.css": "/static/css/main.f0e253f6.css",
+    "main.js": "/static/js/main.a09d1f8b.js",
     "static/js/787.1902d090.chunk.js": "/static/js/787.1902d090.chunk.js",
     "static/media/ig_shop.png": "/static/media/ig_shop.5f2b8ef1072e106cdc2a.png",
     "static/media/meg.png": "/static/media/meg.d4d49d95961ff1567448.png",
@@ -11,6 +11,7 @@
     "static/media/Borel-Regular.ttf": "/static/media/Borel-Regular.1b8a09affbb22fa0b8ff.ttf",
     "static/media/dm_login.png": "/static/media/dm_login.9590bb70550e0e5cbf46.png",
     "static/media/SF-Mono-Regular.otf": "/static/media/SF-Mono-Regular.dd15a7c876111223f6ca.otf",
+    "static/media/espressco.png": "/static/media/espressco.cb1bb69038b345e48698.png",
     "static/media/trip_planner.png": "/static/media/trip_planner.e4ee0b54a6ef074d3f7f.png",
     "static/media/canvas_algo.png": "/static/media/canvas_algo.0cb63c05920bdd88774f.png",
     "static/media/linkedin.png": "/static/media/linkedin.abf0b326e0083424e5eb.png",
@@ -29,12 +30,12 @@
     "static/media/linux_terminal.png": "/static/media/linux_terminal.27b5ae8cd63faba48594.png",
     "static/media/shell_app.png": "/static/media/shell_app.f0134db3670d106da2e1.png",
     "index.html": "/index.html",
-    "main.3b941e24.css.map": "/static/css/main.3b941e24.css.map",
-    "main.57ec2ca7.js.map": "/static/js/main.57ec2ca7.js.map",
+    "main.f0e253f6.css.map": "/static/css/main.f0e253f6.css.map",
+    "main.a09d1f8b.js.map": "/static/js/main.a09d1f8b.js.map",
     "787.1902d090.chunk.js.map": "/static/js/787.1902d090.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b941e24.css",
-    "static/js/main.57ec2ca7.js"
+    "static/css/main.f0e253f6.css",
+    "static/js/main.a09d1f8b.js"
   ]
 }
