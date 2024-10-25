@@ -202,6 +202,14 @@ iframe {
     box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 }
 
+#espressco {
+    width: auto;
+    height: 375px;
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+}
+
+
 #tiktokpets {
     width: auto;
     height: 375px;
@@ -285,10 +293,7 @@ iframe {
 
   @media screen and (max-width:900px) {
 
-    #projects {
-        height: 70vh;
-    }
-
+    
     #projectDock {
         display: flex;
         flex-direction: row;
@@ -314,7 +319,7 @@ iframe {
     }
     
     #projectHeader {
-        margin-top: 150px;
+        margin-top: 120px;
         margin-bottom: 5px;
     }
 
@@ -397,6 +402,12 @@ iframe {
         height: 280px;
         margin-top: 62px;
         margin-bottom: 62px;
+    }
+
+    #espressco {
+        height: 370px;
+        margin-top: 17px;
+        margin-bottom: 17px;
     }
 
     #tiktokpets {
@@ -532,6 +543,12 @@ iframe {
         margin-top: 20px;
         margin-bottom: 20px;
     }
+
+    #espressco {
+        height: 220px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }    
 
     #tiktokpets {
         height: 220px;
@@ -671,6 +688,13 @@ iframe {
         margin-top: 20px;
         margin-bottom: 20px;
     }
+
+
+    #espressco {
+        height: 200px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }   
 
     #tiktokpets {
         height: 200px;

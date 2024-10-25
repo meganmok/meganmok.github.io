@@ -210,7 +210,7 @@ function Projects() {
           <div> 
           <FadeIn>
           <a href = "https://meganmok.github.io/espressco/" target="_blank" rel="noopener noreferrer"> 
-          <img src = {espressco} id = "espressco" alt = "the espressco" onClick = {espresscoClick}/> 
+          <img src = {espressco} id = "espressco" alt = "the espressco" /> 
           </a>
           </FadeIn> 
           </div>

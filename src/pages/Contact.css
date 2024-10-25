@@ -136,10 +136,6 @@
 
 @media screen and (max-width:900px) {
 
-  #contact {
-    height: 50vh;
-  }
-
   #iMessage {
     margin-top: 180px;
   }
@@ -186,7 +182,7 @@
 
   
   #secondText::after {
-    background-color:  #FBEFD3;
+    background-color:  #FDF2D7;
     left: -25px;
   }
 
@@ -202,7 +198,7 @@
 @media screen and (max-width:700px) {
 
   #contact {
-    height: 70vh;
+    height: 60vh;
   }
 
   #meg {
@@ -247,7 +243,7 @@
 
   
   #secondText::after {
-    background-color:  #FBF1D9;
+    background-color:  #FDEDCE;
     left: -26px;
   }
 
